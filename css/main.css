@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Nunito:wght@300;400;500;600&display=swap');
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.bg-hsc-red {
+    background: #7b0101 !important;
+}
+
+.text-cursive{
+    font-family: 'Inspiration', cursive;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.vers .card {
+    height: 170px;
+    background-size: 100%;
+    transition-duration: 1s;
+}
+
+.vers .card:hover{
+    background-size: 120%;
+    background-position: center;
+    transition-duration: 2s;
+}
+
+.vers .card .title::after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 10px;
+    background: red !important;
+    transition-duration: 0.5s;
+}
+
+.vers .card:hover .title::after {
+    width: 100px;
+    transition-duration: 1s;
+}
+
+.vers .cards .card .card-img-top {
+    max-height: 120px;
+    object-fit: cover;
+} 
+
+.text-small{
+    font-size: 0.9em;
+}
+
+.video-title{
+    border-radius: 10px !important;
+}
+
+.footer-wrap{
+    width: 100vw;
+}
