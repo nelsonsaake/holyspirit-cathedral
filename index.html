@@ -23,7 +23,7 @@
 
 <body>
     <div class="header-wrap container-fluid p-0">
-        <iframe onload="resizeIframe(this)" class="header" src="/partials/header.html"></iframe>
+        <iframe onload="resizeIframe(this)" onclick="resizeIframe(this)" class="header" src="/partials/header.html"></iframe>
     </div>
 
     <div class="container my-5">
@@ -48,36 +48,13 @@
                     <div class="display-5 text-center">
                         The Holy Spirit Cathedral Accra
                     </div>
+                    <p class="text-center text-muted mt-2">
+                        Tap one of the tiles to see more.
+                    </p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="">
-                        <p>
-                            The Holy Spirit Cathedral is the seat of the Catholic
-                            Archdiocese of Accra. The edifice, an imposing architecture, is
-                            second to none in the country. It has served as an important
-                            space for many Archdiocesan and National celebrations.
-                        </p>
-                        <p>
-                            Many people from all walks of life, both young and old,
-                            nationals and non-nationals have been associated with the Holy
-                            Spirit Cathedral. The welcoming ambience of the Cathedral
-                            grounds and its striking calmness within the threshold of the
-                            liturgical space evokes such a perfect divine presence that can
-                            hardly go unnoticed.
-                        </p>
-                        <p>
-                            Like any other church within the Archdiocese, the Holy Spirit
-                            Cathedral, through its Parish Pastoral Council, has raised and
-                            nurtured many resourceful leaders within the vast structures of
-                            the church’s Administration over the years. For the Youth
-                            Apostolate, the Parish Youth Council coordinates all activities
-                            of the various Youth Groups.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                     <div class="row vers g-3 text-center">
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="card d-flex justify-content-center align-items-center p-5 text-white" style="
@@ -178,8 +155,8 @@
         </div>
     </div>
 
-    <div class="footer-wrap container-fluid p-0 mt-5 bg-hsc-red">
-        <iframe onload="resizeIframe(this)" class="footer" src="/partials/footer.html"></iframe>
+    <div class="footer-wrap p-0 mt-5 bg-hsc-red">
+        <iframe onload="resizeIframe(this)" class="footer m-0" src="/partials/footer.html"></iframe>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
