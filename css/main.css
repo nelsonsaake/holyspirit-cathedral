@@ -8,6 +8,10 @@ body{
     background: #7b0101 !important;
 }
 
+.text-hsc-red {
+    color: #7b0101 !important;
+}
+
 .text-cursive{
     font-family: 'Inspiration', cursive;
 }
@@ -56,10 +60,14 @@ body{
     border-radius: 10px !important;
 }
 
-.header-wrap,
-.header,
-.footer-wrap,
-.footer{
+.partial-wrap,
+.partial{
     width: 100%;
     overflow: hidden;
+}
+
+.social-media{
+    height: 60px;
+    width: 60px;
+    margin-right: .5em;
 }
