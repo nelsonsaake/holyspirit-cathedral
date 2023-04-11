@@ -67,7 +67,11 @@ body{
 }
 
 .social-media{
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
     margin-right: .5em;
+}
+
+li span {
+    margin-right: 4rem;
 }
