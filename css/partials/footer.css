@@ -1,0 +1,5 @@
+.f-link:hover i{
+    cursor: pointer;
+    margin-right: .1rem;
+    font-size: 1.1em;
+}

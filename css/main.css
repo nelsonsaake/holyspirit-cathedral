@@ -56,6 +56,10 @@ body{
     border-radius: 10px !important;
 }
 
-.footer-wrap{
-    width: 100vw;
+.header-wrap,
+.header,
+.footer-wrap,
+.footer{
+    width: 100%;
+    overflow: hidden;
 }
